@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+header{
+    background-color:black;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 1.2rem;
+    padding: 1rem;
+    color:white;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    left: 1rem ;
+    align-items: center;
+    z-index: 1;
+}
+nav ul{
+    list-style: none;
+    float: right;
+}
+nav li{
+    display: inline;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+#title{
+    font-variant:small-caps ;
+    font-size: 1.7rem;
+    float: left;
+}
+main{
+    background-color:#fa785d ;
+    padding: 150px  20px;
+    
+}
+.main-content{
+    background-color: rgb(114, 103, 103);
+    margin: auto;
+    width: 50%;
+}
+.designer{
+    position: absolute;
+    top: 5rem;
+    left: 3rem;
+  
+}
+section{
+    position: relative;
+}
+
+.main-content p{
+    color: white;
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+
+.occupation{
+    color: #e1ba07;
+    text-align: center;
+    padding: 0.7rem;
+}
+#projects{
+    background-color: #ede6e2;
+   padding: 1rem;
+}
+#projects h2, #education h2{
+    text-align: center;
+}
+.project-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+    justify-content: center;
+    grid-gap: 1.5rem;
+    padding: 1.5rem;
+
+}
+.project-name{
+    color: #fa785d ;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.project{
+   padding: 0.5rem;
+    outline: 1px solid black;
+    line-height: 2rem;
+    color: rgb(73, 72, 72);
+    
+    
+}
+.project a{
+    background-color:#fa785d ;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 7px 55px; 
+}
+.education-section{
+    display: grid;
+    grid-template-columns:  minmax(300px, 500px);
+    grid-gap: 1rem;
+    justify-content: center;
+    padding: 10px;
+   
+}
+#education{
+    padding: 1rem;
+    background-color: #5bc3eb;
+}
+
+.education-info{
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 40px 0.5fr 1.5fr 1.8fr;
+    grid-gap:7px;
+    background-color: white;
+    color: rgb(73, 72, 72);
+    align-items: center;
+}
+footer{
+    background-color: black;
+     text-align: center;
+     padding: 1rem;
+} 
+footer a{
+color: white;
+text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.project-img-reddit{
+   background-image: url('./images/Screenshot1.png');
+   width: 284px;
+   height: 200px;
+   background-size: cover;
+   background-position: center;
+   
+}
+.project-img-tweexton{
+    background-image: url('./images/Screenshot2.png');
+    width: 284px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    
+ }
+ .project-img-gmail{
+    background-image: url('./images/Screenshot3.png');
+    width: 284px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
